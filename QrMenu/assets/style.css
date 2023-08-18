@@ -1,0 +1,189 @@
+*{
+  font-family: "Rubik", sans-serif;
+  
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .place{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .place img{
+    width: 100%;
+  }
+  .go-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 14px;
+    width: 45px;
+    top: 2%;
+    left: 2%;
+  }
+  .language-option{
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    right: 5%;
+    border-radius: 5px;
+  }
+  .language-option div{
+    width: 100%;
+  }
+  .language-option div img{
+    width: 30px;
+  }
+  h1{
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p{
+    color: #c4c4c4;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #myInput{
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #c4c4c4;
+  }
+  #myInput::placeholder{
+    font-weight: 300;
+    color: #c4c4c4;
+  }
+  .options button{
+    outline: 1px solid #c4c4c4 !important;
+    color: black;
+    border-radius: 10px !important;
+  }
+  .options button.active{
+    background-color: black !important;
+    color: #fff !important;
+  }
+  .meals-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    border-radius: 25px;
+    margin: 10px 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+  
+  .meals-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    z-index: -1;
+  }
+  
+  .meals-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+  .meal-image{
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .price{
+    color: #000 !important;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  #breakfast{
+    background-image: url(/assets/images/breakfast.jpg);
+  }
+  #soups{
+    background-image: url(/assets/images/soups.jpg);
+  }
+  #salads{
+    background-image: url(/assets/images/salads.jpg);
+  }
+  #kebabs{
+    background-image: url(/assets/images/kebabs.jpg);
+  }
+  #hot-dishes{
+    background-image: url(/assets/images/hot-dishes.jpg);
+  }
+  #snacks{
+    background-image: url(/assets/images/snacks.jpg);
+  }
+  #sheki-sweets{
+    background-image: url(/assets/images/sheki.avif);
+  }
+  #turkish-sweets{
+    background-image: url(/assets/images/turkish.png);
+  }
+  #special-desserts{
+    background-image: url(/assets/images/special.jpg);
+  }
+  #ice-creams{
+    background-image: url(/assets/images/ice-creams.jpg);
+  }
+  #alcohol{
+    background-image: url(/assets/images/alcohol.avif);
+  }
+  #non-alcohol{
+    background-image: url(/assets/images/fruit.avif);
+  }
+  #hot-drinks{
+    background-image: url(/assets/images/hotdrinks.avif);
+  }
+  #cocktails{
+    background-image: url(/assets/images/cokctails.avif);
+  }
+
+  @font-face {
+    font-family: 'Rubik-Black';
+    src: url('assets/fonts/Rubik-Black.ttf'),
+       url('assets/fonts/Rubik-BlackItalic.ttf'),
+       url('assets/fonts/Rubik-Bold.ttf'),
+       url('assets/fonts/Rubik-BoldItalic.ttf'),
+       url('assets/fonts/Rubik-ExtraBold.ttf'),
+       url('assets/fonts/Rubik-ExtraBoldItalic.ttf'),
+       url('assets/fonts/Rubik-Italic.ttf'),
+       url('assets/fonts/Rubik-Light.ttf'),
+       url('assets/fonts/Rubik-LightItalic.ttf'),
+       url('assets/fonts/Rubik-Medium.ttf'),
+       url('assets/fonts/Rubik-MediumItalic.ttf'),
+       url('assets/fonts/Rubik-Regular.ttf'),
+       url('assets/fonts/Rubik-SemiBold.ttf'),
+       url('assets/fonts/Rubik-SemiBoldItalic.ttf')
+       ;
+}
+

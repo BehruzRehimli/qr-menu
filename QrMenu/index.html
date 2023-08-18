@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <title>MENU</title>
+  </head>
+
+  <body>
+
+    <!--Header Start-->
+    <header>
+      <div class="place">
+        <img src="assets/images/restoran-1024x559.jpg" alt="place-photo">
+        <div class="language-option">
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle d-flex align-items-center gap-1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/images/aze.PNG" alt="aze"> AZE
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li ><a class="dropdown-item active d-none" href="#"><img src="assets/images/aze.PNG" alt="aze"> AZE</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="assets/images/rus.png" alt=""> RUS</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="assets/images/gb.png" alt=""> ENG</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="assets/images/turk.svg.webp" alt=""> TUR</a></li>
+                </ul>
+              </div>
+        </div>
+
+      </div>
+        <!--Info Section Start-->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 mt-2 mb-2">
+              <h1>Restoran N1</h1>
+              <p><i class="fa-solid fa-location-dot me-1" style="color: #c4c4c4;"></i> Şəki şəhəri, M.Ə.Rəsulzadə pr, 900</p>
+              <p><i class="fa-solid fa-phone me-1" style="color: #c4c4c4;"></i>+994 55 555 55 55</p>
+              <p><i class="fa-solid fa-wifi me-1" style="color: #c4c4c4;"></i> <span>WiFi Password:</span>12345678</p>
+            </div>
+          </div>
+        </div>
+        <!--Info Section End-->
+    </header>
+    <!--Header End-->
+
+
+    <!--Main Section Start-->
+    <main>
+      <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-md-12">
+
+              <ul class="nav nav-pills mb-3 options gap-2" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link first active" id="pills-meals-tab" data-bs-toggle="pill" data-bs-target="#pills-meals" type="button" role="tab" aria-controls="pills-meals" aria-selected="true">Yeməklər</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link second" id="pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#pills-desserts" type="button" role="tab" aria-controls="pills-desserts" aria-selected="false">Desertlər</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link third" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false">İçkilər</button>
+                </li>
+
+              </ul>
+              
+              <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane first-tab fade show active" id="pills-meals" role="tabpanel" aria-labelledby="pills-meals-tab">
+
+                  <ul>
+
+                    <li>
+                      <a href="breakfast.html">
+                        <div class="meals-title" id="breakfast">
+                          <h3>Səhər yeməkləri</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="soups.html">
+                        <div class="meals-title" id="soups">
+                          <h3>Şorbalar</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="salads.html">
+                        <div class="meals-title" id="salads">
+                          <h3>Salatlar</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="kababs.html">
+                        <div class="meals-title" id="kebabs">
+                          <h3>Kabablar</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="hot-dishes.html">
+                        <div class="meals-title" id="hot-dishes">
+                          <h3>İsti yeməklər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="snacks.html">
+                        <div class="meals-title" id="snacks">
+                          <h3>Qəlyanaltılar</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+
+                <div class="tab-pane second-tab fade" id="pills-desserts" role="tabpanel" aria-labelledby="pills-desserts-tab">
+
+                  <ul>
+
+                    <li>
+                      <a href="sheki-sweets.html">
+                        <div class="meals-title" id="sheki-sweets">
+                          <h3>Şəki şirniyyatları</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="turkish-sweets.html">
+                        <div class="meals-title" id="turkish-sweets">
+                          <h3>Türk şirniyyatları</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="special-desserts.html">
+                        <div class="meals-title" id="special-desserts">
+                          <h3>Xüsusi desertlər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="ice-creams.html">
+                        <div class="meals-title" id="ice-creams">
+                          <h3>Dondurmalar</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                 
+
+                  </ul>
+
+                </div>
+
+
+                <div class="tab-pane third-tab fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
+
+                  <ul>
+
+                    <li>
+                      <a href="alcohol.html">
+                        <div class="meals-title" id="alcohol">
+                          <h3>Alkoqollu içkilər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="non-alcohol.html">
+                        <div class="meals-title" id="non-alcohol">
+                          <h3>Alkoqolsuz içkilər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="hot-drinks.html">
+                        <div class="meals-title" id="hot-drinks">
+                          <h3>İsti içkilər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="cocktails.html">
+                        <div class="meals-title" id="cocktails">
+                          <h3>Kokteyllər</h3>
+                        </div>
+                      </a>
+                    </li>
+
+                 
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+              
+            </div>
+
+        </div>
+      </div>
+    </main>
+    
+    <!--Main Section End-->
+
+    
+    <!--Footer Start-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="border-top d-flex justify-content-center align-items-center">
+            <p class="text-dark">&copy; 2023 - Developed by Mubariz Abdulkhaligli.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+   <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/main.js"></script>
+    <script>
+      var value=localStorage.getItem("active");
+      if (value==="3") {
+        document.querySelector(".first").classList.remove("active");
+        document.querySelector(".second").classList.remove("active");
+        document.querySelector(".third").classList.add("active")
+
+        document.querySelector(".first-tab").classList.remove("show");
+        document.querySelector(".first-tab").classList.remove("active");
+
+        document.querySelector(".second-tab").classList.remove("show");
+        document.querySelector(".second-tab").classList.remove("active");
+
+        document.querySelector(".third-tab").classList.add("show")
+        document.querySelector(".third-tab").classList.add("active")
+      }
+      if (value==="2") {
+        document.querySelector(".first").classList.remove("active");
+        document.querySelector(".third").classList.remove("active");
+        document.querySelector(".second").classList.add("active")
+
+        document.querySelector(".first-tab").classList.remove("active");
+        document.querySelector(".first-tab").classList.remove("show");
+
+        document.querySelector(".third-tab").classList.remove("active");
+        document.querySelector(".third-tab").classList.remove("show");
+
+        document.querySelector(".second-tab").classList.add("active")
+        document.querySelector(".second-tab").classList.add("show")
+      }
+      localStorage.setItem("active",'')
+    </script>
+  </body>
+</html>
